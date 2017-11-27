@@ -1,0 +1,100 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>Contact | Matt Ellenberger</title>
+        <link href="site.css" rel="stylesheet">
+        <script src ="script.js"></script>
+    </head>
+    <body id="body">
+      <div id="wraper">
+        <header id="navbar">
+            <div>
+                <nav>
+                    <div class="topnav" id="myTopnav">
+                        <a style="font-size:24px"href="home.html">Home</a>
+                        <a style="font-size:24px"href="portfolio.html">Portfolio</a>
+                        <a style="font-size:24px"href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="content">
+        <div>
+            <div id="contact-form">
+                <div>
+                    <h1 style="margin: 10px 0 0 0">Contact Me</h1>
+                </div><br>
+                <p id="failure">Oopsie...message not sent.</p>
+                <p id="success">Your message was sent successfully. Thank you!</p>
+                <form method="POST"action="https://formspree.io/mattellenberger43@gmail.com." >
+                    <div>
+                        <label for="first name">
+                            <span class="required">First Name: *</span><br>
+                            <input type="text" id="first name" name="first name" value="" placeholder="Your First Name" required="required" tabindex="1" autofocus="autofocus" />
+                        </label>
+                    </div><br>
+                    <div>
+                        <label for="name">
+                            <span class="required">Last Name: *</span><br>
+                            <input type="text" id="last name" name="last name" value="" placeholder="Your Last Name" required="required" tabindex="2" autofocus="autofocus" />
+                        </label>
+                    </div><br>
+                    <div>
+                        <label for="email">
+                            <span class="required">Email: *</span><br>
+                            <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="3" required="required" />
+                        </label>
+                    </div><br>
+                    <div>
+                        <label for="subject">
+                            <span class="required">Subject: *</span><br>
+                            <select id="subject" name="subject" tabindex="4">
+                                <option value="hello">General Message</option>
+                                <option value="question">Ask a question</option>
+                                <option value="resume">Resume request</option>
+                            </select>
+                        </label>
+                    </div><br>
+                    <div>
+                        <label for="message">
+                            <span class="required">Message: *</span><br>
+                            <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <button name="submit" type="submit" id="submit">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div><br>
+        <table id:"table">
+          <tr>
+            <th><h1>Social Media</h1></th>
+          </tr>
+          <tr>
+            <td><a href="https://www.linkedin.com/in/matt-ellenberger43/"><img src="https://i.imgur.com/N8xZg55.png"></a></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/mwlnbrgr"><img src="https://i.imgur.com/SuZss1c.png"></a></td>
+          </tr>
+          <tr>
+            <td><a href="https://stackoverflow.com/users/story/7821322"><img src="https://i.imgur.com/2vvUFsc.png" /></a></td>
+          </tr>
+          <tr>
+            <td><a href="https://twitter.com/mwlnbrgr"><img src="https://i.imgur.com/5gI1DPI.png" /></a></td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <div id="contactfooter">
+              <h5>Copyright Matt Ellenberger 2017</h5>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
