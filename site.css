@@ -1,9 +1,7 @@
 body{
    opacity: 50%;
     background-image: url("https://i.imgur.com/3rQELg9.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size:contain;
     z-index: 2;
     font-family: arial sans-serif;
     text-align: center;
@@ -11,18 +9,40 @@ body{
 
 h1{
   color: red;
-  font-size:40px;
 }
+
 h3{
-  color:#FFBE33;
-  font-size:32px
+  color: red;
+}
+#body > doctype > div:nth-child(22) > h3 > a{
+  color:red;
+}
+#body > doctype > div:nth-child(22) > h3 > a:hover{
+  color: #ffbe33;
+}
+#body > doctype > div:nth-child(14) > h3 > a{
+  color:red;
+}
+#body > doctype > div:nth-child(14) > h3 > a:hover{
+  color: #ffbe33;
+}
+#body > doctype > div:nth-child(10) > h3 > a{
+  color:red;
+}
+#body > doctype > div:nth-child(10) > h3 > a:hover{
+  color: #ffbe33;
+}
+#body > doctype > div:nth-child(7) > h3 > a{
+  color:red;
+}
+#body > doctype > div:nth-child(7) > h3 > a:hover{
+color: #ffbe33;  
 }
 p{
-color: #c1a350;
-margin-left:15%;
-margin-right:15%;
-font-size:28px;
+color: #ffbe33;
 
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #p2{
@@ -78,23 +98,28 @@ textarea{
     color: black;
 }
 
-.topnav a:active {
+.topnav a.active {
     background-color: #4CAF50;
     color: white;
 }
+#body > doctype > a > img{
+  width: 1280px;
+}
 footer{
+
    margin-top: 50px;
    margin-left: 10px;
    margin-right: 10px;
    left:0px;
-   bottom:0;
+   bottom:0px;
    height:50px;
    width:99%;
    background:#4B4B2C;
+   /*padding: 10px 20px 30px 20px;*/
    padding-bottom: 20px;
    padding-top: 10px;
    clear: left;
-   position: fixed;
+   position: sticky;
 }
 
 #contactfooter {
