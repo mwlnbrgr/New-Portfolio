@@ -17,8 +17,8 @@ function myFunction(){
 
   averageWords = wordCounter/sentenceCounter;
 
-  document.getElementById("row1").innerHTML = 'There is an average of ' + averageWords + ' word(s) per sentence.';
-  document.getElementById("row2").innerHTML = 'There is ' + spaceCounter + ' space(s) in this text';
-  document.getElementById("row3").innerHTML = 'There is ' + wordCounter + ' word(s) in this text.';
-  document.getElementById("row4").innerHTML = 'There is ' + sentenceCounter + ' sentence(s) in this text.';
+  document.getElementById("row1").innerHTML = 'There are an average of ' + averageWords + ' word(s) per sentence.';
+  document.getElementById("row2").innerHTML = 'There are ' + spaceCounter + ' space(s) in this text';
+  document.getElementById("row3").innerHTML = 'There are ' + wordCounter + ' word(s) in this text.';
+  document.getElementById("row4").innerHTML = 'There are ' + sentenceCounter + ' sentence(s) in this text.';
 }
