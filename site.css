@@ -289,7 +289,7 @@ input:required, textarea:required {
 }
 @media screen and (min-width:769px){
     #m-nav {
-      display:none;
+      
     }
 }
 @media screen and (max-width:768px){
