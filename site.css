@@ -289,13 +289,14 @@ input:required, textarea:required {
 }
 @media screen and (min-width:769px){
     #m-nav {
-      
+     display:none; 
     }
 }
 @media screen and (max-width:768px){
    header{
      display: none;
    }
+}
    * {
      margin: 0;
      padding: 0;
@@ -329,5 +330,5 @@ input:required, textarea:required {
    }
    #m-nav li {
      padding:5px;
-   }
+   
 }
