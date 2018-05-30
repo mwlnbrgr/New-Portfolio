@@ -1,22 +1,31 @@
 <DOCTYPE html>
-    <html>
+  <html>
     <head>
-        <title>Portfolio | Matt Ellenberger</title>
-        <link href="site.css" rel="stylesheet">
-        <script src="script.js"></script>
+      <title>Matt Ellenberger | Title</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="site.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body id="body">
-        <header id="navbar">
-            <div>
-            <nav>
+      <nav id="m-nav"role='navigation'>
+      <a href="#" id="toggle"><i class="fa fa-bars"></i></a>
+    <ul id="m-nav">
+      <li><a id="m-nav"href="home.html">Home</a></li>
+      <li><a id="m-nav"href="portfolio.html">Portfolio</a></li>
+      <li><a id="m-nav"href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <header id="m-header">
+        <div >
+          <nav>
             <div class="topnav" id="myTopnav">
-            <a href="home.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+              <a style="font-size:24px"href="home.html">Home</a>
+              <a style="font-size:24px"href="portfolio.html">Portfolio</a>
+              <a style="font-size:24px"href="contact.html">Contact</a>
             </div>
-            </nav>
-            </div>
-        </header>
+          </nav>
+        </div>
+      </header>
         <div>
             <h1>Portfolio of My Recent Projects</h1>
         </div>
@@ -118,5 +127,11 @@
           <p id="p2">Copyright Matt Ellenberger 2018</p>
         </footer>
         </div>
+        <script type="text/javascript">
+      $('nav a#toggle').click(function() {
+        $('ul').slideToggle(200, function() {
+        });
+      });
+      </script>  
     </body>
 </html>
