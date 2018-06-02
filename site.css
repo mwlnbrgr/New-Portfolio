@@ -136,6 +136,9 @@ textarea{
   width: 950px;
   height: 657px;
 }
+#body > doctype > div:nth-child(26) > a > img{
+  width:950px;
+}
 footer{
 
    margin-top: 50px;
