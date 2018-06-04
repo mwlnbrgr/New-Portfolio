@@ -155,7 +155,45 @@ footer{
    clear: left;
    position:fixed;
 }
-
+i.fab.fa-linkedin-in{
+   font-size: 22px;
+   background-color: #007BB5;
+   color: #fff;
+   padding: 5px;
+   border-radius: 30px;
+   border-style: solid;
+   border-color: #007bb5;
+}
+i.fab.fa-github {
+   font-size: 22px;
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 30px;
+   border-style: solid;
+   border-color: #fff;
+   color: #570069;
+}
+i.fab.fa-stack-overflow {
+    font-size: 22px;
+    color: #F48024;
+    background-color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #000;
+}
+i.fab.fa-twitter {
+    color: #fff;
+    background-color: #57879D;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #57879d;
+}
 #contactfooter {
 
    margin-top: 50px;
