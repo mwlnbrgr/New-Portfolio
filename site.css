@@ -102,7 +102,7 @@ textarea{
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -111,7 +111,7 @@ textarea{
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
@@ -344,7 +344,7 @@ input:required, textarea:required {
 }
 
 /* Make form look nice on smaller screens */
-@media only screen and (max-width: 580px) {
+@media only screen and (max-device-width: 580px) {
    #contact-form{
       left: 3%;
       margin-right: 3%;
@@ -354,7 +354,7 @@ input:required, textarea:required {
       padding-right: 3%;
    }
 }
-@media screen and (min-width:769px) and (max-width:2500px){
+@media screen and (min-device-width:769px) and (max-device-width:2500px){
     #m-nav {
       display:none;
     }
