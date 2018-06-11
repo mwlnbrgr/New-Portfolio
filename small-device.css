@@ -39,4 +39,82 @@
     display: block;
     text-align: left;
   }
+  #body > doctype > div:nth-child(8) > h1{
+    font-size: 83px!important;
+  }
+  #body > doctype > div:nth-child(11) > h3{
+    font-size:80px;
+  }
+  #image{
+    width: 775px;
+    border-radius: 75px;
+  }
+  .hometxt{
+    font-size: 75px;
+    margin-bottom:200px!important;
+  }
+  footer {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 0px;
+    bottom: 0px;
+    height: 262px;
+    width: 99%;
+    background: #4B4B2C;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    clear: left;
+    position: relative!important;
+}
+  i.fab.fa-linkedin-in {
+    font-size: 107px;
+    background-color: #007BB5;
+    color: #fff;
+    padding: 25px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color: #007bb5;
+    text-align: center;
+    margin-right:35px;
+  }
+  i.fab.fa-github {
+    font-size: 112px;
+    background-color: #fff;
+    padding: 17px;
+    border-radius: 76px;
+    border-style: solid;
+    border-color: #fff;
+    color: #570069;
+    margin-right:35px;
+  }
+  i.fab.fa-stack-overflow {
+    font-size: 122px;
+    color: #F48024;
+    background-color: #000;
+    padding-top: 11px;
+    padding-bottom: 19px;
+    padding-left: 29px;
+    padding-right: 30px;
+    border-radius: 98px;
+    border-style: solid;
+    border-color: #000;
+    margin-right: 35px;
+}
+  i.fab.fa-twitter {
+    color: #fff;
+    background-color: #57879D;
+    /* padding: 18px; */
+    font-size: 101px;
+    border-radius: 84px;
+    border-style: solid;
+    border-color: #57879d;
+    padding-top: 24px;
+    padding-bottom: 19px;
+    padding-left: 31px;
+    padding-right: 20px;
+  }
+  #p2{
+    font-size: 53px;
+  }
 }
