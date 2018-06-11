@@ -1,4 +1,24 @@
 @media only screen and (max-device-width: 480px){
+  #myTopnav > a:nth-child(1){
+    font-size:65px!important;
+  }
+  #myTopnav > a:nth-child(2){
+    font-size:65px!important;
+  }
+  #myTopnav > a:nth-child(3){
+   font-size:65px!important;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFBE33;
+    font-size: 82px;
+}
   .topnav a:not(:first-child) {
     display: none;
   }
