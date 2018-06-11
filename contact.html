@@ -3,7 +3,9 @@
     <head>
       <title>Matt Ellenberger | Title</title>
       <link href="site.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <script src="script.js"></script>
     </head>
     <header id="m-header">
           <div >
@@ -14,7 +16,7 @@
                 <a style="font-size:24px"href="contact.html">Contact</a>
                 <a href="javascript:void(0);" class="icon" onclick="mNav()">
                   <i class="fa fa-bars"></i>
-               </a>    
+               </a>
               </div>
             </nav>
           </div>
@@ -97,15 +99,5 @@
         </div>
         </div>
         </div>
-        <script>
-function mNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
     </body>
 </html>
