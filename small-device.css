@@ -50,9 +50,93 @@
     border-radius: 75px;
   }
   .hometxt{
-    font-size: 75px;
+    font-size: 50px;
     margin-bottom:200px!important;
   }
+  #contact-form {
+    background-color: rgba(72,72,72,0.7);
+    padding: 10px 20px 30px 20px;
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    width: 88%;
+    height: 1157px;
+    margin-left: 4%;
+margin-right: 4%;
+}
+#contact-form input {
+    width: 90%;
+    height: 75px;
+}
+#contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+    font-size: 60px;
+    margin-bottom: 2px;
+    font-family: Arial, san-serif;
+    height: 75px;
+}
+button#submit {
+    height: 100px;
+}
+#contact-form > form > div:nth-child(10){
+    margin-top: 54px;
+}
+#contact-form button[type="submit"]{
+  font-size:55px;
+}
+#contact-form > div > h1{
+  font-size: 110px;
+}
+#content > table > tbody > tr:nth-child(1) > th > h1{
+  font-size: 110px;
+}
+table {
+    background-color: rgba(72,72,72,0.7);
+    padding: 10px 20px 30px 20px;
+    max-width: 100%
+   display: inline-block;
+    text-align: center;
+    height: 1215px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 86px;
+}
+#content > table > tbody > tr:nth-child(2) > td > a > img{
+    width: 775px;
+}
+#content > table > tbody > tr:nth-child(3) > td > a > img{
+    width: 585px;
+}
+#content > table > tbody > tr:nth-child(4) > td > a > img{
+    width: 718px;
+}
+#content > table > tbody > tr:nth-child(5) > td > a > img{
+  width: 718px;
+}
+#contactfooter{
+  height:115px;
+  position: relative;
+  margin-bottom: -98px;
+}
+#contactfooter > h5{
+  font-size: 33px;
+}
+#textarea{
+  width: 760px;
+  height: 200px;
+}
+#body > doctype > div:nth-child(32) > button{
+  width: 200px;
+  height: 86px;
+  margin-top: 50px;
+  font-size: 46px;
+}
   footer {
     margin-top: 50px;
     margin-left: 10px;
