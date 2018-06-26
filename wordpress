@@ -1,0 +1,49 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <title>Matt Ellenberger | Title</title>
+      <link href="site.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <script src="script.js"></script>
+    </head>
+    <body id="body">
+      <header id="m-header">
+            <div >
+              <nav>
+                <div class="topnav" id="myTopnav">
+                  <a style="font-size:24px"href="home.html">Home</a>
+                  <a style="font-size:24px"href="wordpress.html">Wordpress Projects</a>
+                  <a style="font-size:24px"href="portfolio.html">Portfolio</a>
+                  <a style="font-size:24px"href="contact.html">Contact</a>
+                  <a href="javascript:void(0);" class="icon" onclick="mNav()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </header>
+          <div>
+            <h1>Wordpress Projects</h1>
+          </div>
+          <br>
+          <div>
+              <h3><a href="http://in0.644.myftpupload.com/">1.)"Sonoran Links"</a></h3>
+          </div>
+          <p class="hometxt">
+              This is a sample project I did using Wordpress. I completely designed and developed this Project
+              myself including the custom logo. About half of the images are also from my personal collection. As an
+              avid golfer, I thought it would be fun to make a Website/Blog based on the unique golf experience in
+              the Phoenix locale.
+          </p>
+          <a href="http://in0.644.myftpupload.com/"><img src="https://i.imgur.com/Un0lvAs.jpg"/></a>
+          <footer class="footer">
+            <a href="https://www.linkedin.com/in/matt-ellenberger43/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/mwlnbrgr"><i class="fab fa-github"></i></a>
+            <a href="https://stackoverflow.com/users/story/7821322"><i class="fab fa-stack-overflow"></i></a>
+            <a href="https://twitter.com/mwlnbrgr"><i class="fab fa-twitter"></i></a>
+            <p id="p2">Copyright Matt Ellenberger 2017</p>
+          </footer>
+        </div>
+    </body>
