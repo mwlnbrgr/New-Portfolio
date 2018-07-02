@@ -145,6 +145,9 @@ textarea{
 #body > doctype > div:nth-child(28) > a > img{
   width:950px;
 }
+#body > doctype > a:nth-child(15) > img{
+  margin-bottom: 140px;
+}
 footer{
 
    margin-top: 50px;
