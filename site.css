@@ -25,31 +25,31 @@ a{
     color:#f13131!important;
 }	
 #body > doctype > div:nth-child(22) > h3 > a{
-  color:red;
+  color:#f13131;
 }
 #body > doctype > div:nth-child(22) > h3 > a:hover{
   color: #ffbe33;
 }
 #body > doctype > div:nth-child(14) > h3 > a{
-  color:red;
+  color:#f13131;
 }
 #body > doctype > div:nth-child(14) > h3 > a:hover{
   color: #ffbe33;
 }
 #body > doctype > div:nth-child(10) > h3 > a{
-  color:red;
+  color:#f13131;
 }
 #body > doctype > div:nth-child(10) > h3 > a:hover{
   color: #ffbe33;
 }
 #body > doctype > div:nth-child(7) > h3 > a{
-  color:red;
+  color:#f13131;
 }
 #body > doctype > div:nth-child(7) > h3 > a:hover{
 color: #ffbe33;
 }
 a{
-  color:red;
+  color:#f13131;
 }
 
 #p2{
