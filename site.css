@@ -14,7 +14,7 @@ h1{
 }
 
 h3{
-  color: #f13131;
+  color: #f13131!important;
 }
 p {
     color: #ffbe33;
@@ -22,7 +22,7 @@ p {
     margin-right: 300px!important;
 }
 a{
-    color:#f13131;
+    color:#f13131!important;
 }	
 #body > doctype > div:nth-child(22) > h3 > a{
   color:red;
