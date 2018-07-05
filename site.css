@@ -45,11 +45,6 @@ p {
 #body > doctype > div:nth-child(7) > h3 > a:hover{
 color: #ffbe33;
 }
-p{
-  color: #ffbe33;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 a{
   color:red;
 }
