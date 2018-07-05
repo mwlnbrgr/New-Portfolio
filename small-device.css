@@ -205,3 +205,10 @@ table {
     font-size: 45px;
   }
 }
+@media screen and (max-device-width: 768px){
+    p {
+    color: #ffbe33;
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+   }
+}  
