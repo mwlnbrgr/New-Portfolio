@@ -21,6 +21,9 @@ p {
     margin-left: 300px!important;
     margin-right: 300px!important;
 }
+a{
+    color:#f13131;
+}	
 #body > doctype > div:nth-child(22) > h3 > a{
   color:red;
 }
